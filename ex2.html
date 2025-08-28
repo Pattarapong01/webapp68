@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay Text on Image</title>
+    <style>
+        .immage {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .immage img {
+            width: 100%;
+            height: 100%;
+        }
+        .text {
+            position: absolute;
+            background: rgba(64, 64, 64, 0.6);
+            color: #fff;
+            text-align: center;
+            padding: 0% 30% 0% 30%;
+            margin-top: 30%;
+            backdrop-filter: blur(5px);
+        }
+    </style>
+</head>
+<body>
+    <h1>Preview:</h1>
+    <div class="immage">
+        <img src="https://th.bing.com/th/id/R.18d6279ae479355846afadf5e663737d?rik=uL0VlBonVRNuzg&riu=http%3a%2f%2fwww.homelesstohousecats.com%2fwp-content%2fuploads%2f2014%2f10%2fcat-401124_1920.jpg&ehk=1M1cbS%2bxV9POgWZm7G4QF8SJ3rUCNK5QaJcnixMJb10%3d&risl=&pid=ImgRaw&r=0" alt="cat">
+        <div class="text"><h1>Hello, World</h1></div>
+    </div>
+</body>
+</html>
