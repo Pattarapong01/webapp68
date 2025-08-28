@@ -1,7 +1,8 @@
 img {
-    border-color: brown;
-    border-radius: 100px;
-    border: 5px solid;
+    border-radius: 400px;
+    width: 400px;
+    height: 400px;
+    margin-top: -150px;
 }
 
 aside{
@@ -10,4 +11,53 @@ aside{
 
 nav {
     float: right;
+    padding:0px 100px 0px 100px;
+
+}
+
+nav a {
+     margin-left: 20px ;
+
+}
+
+nav a{
+    font-weight: bolder;
+    color: black;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+section {
+    padding:0px 100px 0px 100px;
+}
+
+header {
+    padding:0px 100px 0px 100px;
+}
+
+.button input {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 31, 210);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+footer {
+    padding:190px 100px 0px 100px;
+}
+
+footer a {
+    margin-left: 10px ;
+    color:black;
+
+}
+
+nav a:hover {
+    color: rgb(255, 31, 210);
+    text-decoration: underline;
+    transition: color 0.2s;
 }
